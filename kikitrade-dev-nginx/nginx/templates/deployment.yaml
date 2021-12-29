@@ -9,6 +9,7 @@ metadata:
     helm.sh/chart: nginx-9.5.18
     app.kubernetes.io/instance: kikitrade-dev-nginx
     app.kubernetes.io/managed-by: Helm
+    hello: world1
 spec:
   replicas: 1
   selector:
